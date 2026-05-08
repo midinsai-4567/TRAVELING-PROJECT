@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop playsinline id="bg-video">
+    <source src="{{ url_for('static', filename='videos/bgvid.mp4') }}" type="video/mp4">
+</video>
+
+<div class="result-container">
+    <div class="result-box">
+        <h2 class="slide-text">Hello {{name}}</h2>
+        <h3 class="slide-text">Best Tourism Place: {{place}}</h3>
+        <h3 class="slide-text">Best Hotel: {{hotel}}</h3>
+
+        <!-- Image Display -->
+        <img src="{{ url_for('static', filename='images/' + image) }}" 
+             alt="Place Image" 
+             class="place-img"><br>
+
+        <a href="/" class="back-btn">Go Back</a>
+    </div>
+</div>
+</body>
+</html>

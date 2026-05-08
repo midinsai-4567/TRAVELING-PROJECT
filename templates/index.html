@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Background Video -->
+<video autoplay muted loop playsinline id="bg-video">
+    <source src="{{ url_for('static', filename='videos/bgvid.mp4') }}" type="video/mp4">
+</video>
+
+<div class="hero">
+    <div class="hero-box">
+        <h2>Smart Travelling and Tourism Recommendation System using ML</h2>
+
+        <form action="/recommend" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="number" name="age" placeholder="Age" required>
+
+            <select name="gender" required>
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <input type="number" name="budget" placeholder="Budget ₹" required>
+
+            <select name="season" required>
+                <option value="">Select Season</option>
+                <option>Summer</option>
+                <option>Winter</option>
+                <option>Monsoon</option>
+                <option>Spring</option>
+            </select>
+
+            <input type="number" name="persons" placeholder="Number of Persons" min="1" required>
+
+            <button type="submit">Get Recommendation</button>
+        </form>
+    </div>
+</div>
+
+<!-- SECTION -->
+<div class="section">
+
+    <div class="card">
+        <h3>About System</h3>
+        <p>Machine Learning based travel recommendation considering budget, season and no of persons.</p>
+    </div>
+
+    <div class="card">
+        <h3>Admin Dashboard</h3>
+        <p>View and manage user travel data.</p>
+    </div>
+
+    <div class="card">
+        <h3>Contact</h3>
+
+        <p><i class="fa-solid fa-user"></i> MIDIN SAI AKURATHI</p>
+        <p><i class="fa-solid fa-envelope"></i> midinsai56@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 9618708929</p>
+
+    </div>
+
+</div>
+
+{% endblock %}

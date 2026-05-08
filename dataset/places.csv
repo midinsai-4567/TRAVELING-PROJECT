@@ -1,0 +1,51 @@
+place,hotel,min_budget,max_budget,image
+Munnar Hills,Green Valley Inn,0,20000,munnar_hills.jpg
+Ooty Lake,Hill Side Residency,0,20000,ooty_lake.jpg
+Coorg Nature Park,Budget Comfort Stay,0,20000,coorg_nature_park.jpg
+Wayanad Forest,Woodland Retreat,0,20000,wayanad_forest.jpg
+Kodaikanal Lake,Misty Valley Inn,0,20000,kodaikanal_lake.jpg
+Yercaud Hills,Silver Oak Stay,0,20000,yercaud_hills.jpg
+Araku Valley,Nature Bliss Hotel,0,20000,araku_valley.jpg
+Hampi Ruins,Heritage Comfort Inn,0,20000,hampi_ruins.jpg
+Pondicherry Beach,Coral Residency,0,20000,pondicherry_beach.jpg
+Gokarna Beach,Sandy Shores Inn,0,20000,gokarna_beach.jpg
+Goa Beaches,Sea Breeze Resort,20001,50000,goa_beaches.jpg
+Kerala Backwaters,Lake View Resort,20001,50000,kerala_backwaters.jpg
+Manali Snow Point,Mountain Bliss Hotel,20001,50000,manali_snow_point.jpg
+Shimla Mall Road,Hill Crown Resort,20001,50000,shimla_mall_road.jpg
+Darjeeling Hills,Tea Garden Retreat,20001,50000,darjeeling_hills.jpg
+Jaipur City Palace,Royal Heritage Stay,20001,50000,jaipur_city_palace.jpg
+Udaipur Lake City,Palace View Hotel,20001,50000,udaipur_lake_city.jpg
+Rishikesh River Side,Ganga Paradise Resort,20001,50000,rishikesh_river_side.jpg
+Andaman Islands,Blue Water Resort,20001,50000,andaman_islands.jpg
+Mysore Palace,Imperial Comfort Hotel,20001,50000,mysore_palace.jpg
+Dubai Marina,Grand Palace Hotel,50001,200000,dubai_marina.jpg
+Maldives Island,Luxury Lagoon Resort,50001,200000,maldives_island.jpg
+Switzerland Alps,Royal Sky Suites,50001,200000,switzerland_alps.jpg
+Paris City Lights,Eiffel Grand Hotel,50001,200000,paris_city_lights.jpg
+London Bridge Area,Thames Luxury Stay,50001,200000,london_bridge_area.jpg
+New York Manhattan,Central Park Elite Hotel,50001,200000,new_york_manhattan.jpg
+Singapore Marina Bay,Orchid Premium Suites,50001,200000,singapore_marina_bay.jpg
+Bali Island Paradise,Tropical Crown Resort,50001,200000,bali_island_paradise.jpg
+Thailand Phuket,Golden Sands Luxury Hotel,50001,200000,thailand_phuket.jpg
+Turkey Cappadocia,Sultan Royal Resort,50001,200000,turkey_cappadocia.jpg
+Srinagar Dal Lake,Houseboat Royal Stay,20001,50000,srinagar_dal_lake.jpg
+Leh Ladakh,Highland Adventure Camp,20001,50000,leh_ladakh.jpg
+Kashmir Gulmarg,Snow Peak Resort,20001,50000,kashmir_gulmarg.jpg
+Chennai Marina Beach,Ocean Pearl Residency,0,20000,chennai_marina_beach.jpg
+Hyderabad Charminar,Deccan Comfort Inn,0,20000,hyderabad_charminar.jpg
+Bangalore City Lights,Silicon Valley Stay,0,20000,bangalore_city_lights.jpg
+Visakhapatnam Beach,Sea Pearl Hotel,0,20000,visakhapatnam_beach.jpg
+Kolkata Victoria Memorial,Heritage Grand Inn,20001,50000,kolkata_victoria_memorial.jpg
+Agra Taj Mahal,Monument View Hotel,20001,50000,agra_taj_mahal.jpg
+Varanasi Ghats,Spiritual Stay Lodge,0,20000,varanasi_ghats.jpg
+Amritsar Golden Temple,Divine Comfort Hotel,20001,50000,amritsar_golden_temple.jpg
+Jodhpur Blue City,Desert Palace Inn,20001,50000,jodhpur_blue_city.jpg
+Mount Abu Hill Station,Cool Breeze Resort,0,20000,mount_abu_hill_station.jpg
+Meghalaya Cherrapunji,Rainforest Retreat,20001,50000,meghalaya_cherrapunji.jpg
+Lakshadweep Island,Coral Reef Resort,50001,200000,lakshadweep_island.jpg
+Nepal Kathmandu,Everest View Suites,50001,200000,nepal_kathmandu.jpg
+Bhutan Thimphu,Himalayan Crown Hotel,50001,200000,bhutan_thimphu.jpg
+Sri Lanka Colombo,Ocean Vista Luxury,50001,200000,sri_lanka_colombo.jpg
+Vietnam Halong Bay,Emerald Bay Resort,50001,200000,vietnam_halong_bay.jpg
+Indonesia Jakarta,Urban Grand Suites,50001,200000,indonesia_jakarta.jpg

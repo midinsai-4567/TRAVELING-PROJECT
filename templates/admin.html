@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Background Video -->
+<video autoplay muted loop playsinline id="bg-video">
+    <source src="{{ url_for('static', filename='videos/bgvid.mp4') }}" type="video/mp4">
+</video>
+
+<h2 style="text-align:center; margin-top:40px; color:#facc15;">
+    Admin Dashboard
+</h2>
+
+<table class="admin-table">
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Age</th>
+<th>Gender</th>
+<th>Budget</th>
+</tr>
+
+{% for user in users %}
+<tr>
+<td>{{user[0]}}</td>
+<td>{{user[1]}}</td>
+<td>{{user[2]}}</td>
+<td>{{user[3]}}</td>
+<td>{{user[4]}}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
